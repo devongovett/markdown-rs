@@ -41,7 +41,7 @@ mod parser;
 mod resolve;
 mod state;
 mod subtokenize;
-mod to_html;
+pub mod to_html;
 mod to_mdast;
 mod tokenizer;
 mod util;
